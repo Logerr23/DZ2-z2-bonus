@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         int account = 100;
-        int refillAmount = 499;
+        int refillAmount = 3_499;
         int bonus;
         if (refillAmount > 1_000) {
             bonus = refillAmount / 100;
